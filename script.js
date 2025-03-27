@@ -26,6 +26,22 @@ function displayPalette(colors) {
         const div = document.createElement('div');
         div.className = 'color-box';
         div.style.backgroundColor = color;
-        palette.appendChild(div);
+
+        // Create label for hex code
+        const label = document.createElement('p');
+        label.textContent = color;
+        label.style.margin = '5px 0 0';
+        label.style.fontSize = '12px';
+        label.style.color = '#333';
+
+        // Wrap box and label
+        const container = document.createElement('div');
+        container.style.display = 'flex';
+        container.style.flexDirection = 'column';
+        container.style.alignItems = 'center';
+        container.appendChild(div);
+        container.appendChild(label);
+
+        palette.appendChild(container);
     });
 }
