@@ -7,3 +7,11 @@ async function generateRandomPalette() {
     const data = await response.json();
     displayPalette(data.colors.map(color => color.hex.value));
 }
+
+function generateFromBaseColor() {
+    const baseColor = document.getElementById('baseColor').value.substring(1);
+    fetch(`https://www.thecolorapi.com/scheme?hex=${baseColor}&mode=analogic&count=5`)
+        .then(response => response.json())
+        .then(data => displayPalette(data.colors.map(color => color.hex.value)));
+}
+
