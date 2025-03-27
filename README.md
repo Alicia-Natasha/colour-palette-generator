@@ -34,9 +34,9 @@ This is a simple color palette generator web application built using HTML, CSS, 
 ## Author
 Alicia Natasha
 
-## Credits
-- Color data provided by [The Color API](https://www.thecolorapi.com/)
-
 ## Version History
 0.1v
+
+## Credits
+- Color data provided by [The Color API](https://www.thecolorapi.com/)
 
