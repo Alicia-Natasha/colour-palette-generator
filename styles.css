@@ -1,0 +1,68 @@
+body { 
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
+    font-size: larger; 
+    background-color: #6b8a6b;
+}
+
+h1 {
+    font-size: 40px; 
+    color: rgb(218, 212, 212);
+}
+
+.palette { 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.color-box { 
+    width: 100px; 
+    height: 100px; 
+    margin: 5px; 
+
+}
+
+.color-box:hover { 
+    background-color: #dddddd; 
+}
+
+#imageInput {
+    background-color: #6b8a6b;
+    color: rgb(218, 212, 212);
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 15px;
+}
+
+#randomPaletteBtn {
+    background-color: #6b8a6b;
+    color: rgb(218, 212, 212);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px;
+    font-style: italic;
+}
+
+#imageColorBtn {
+    background-color: #6b8a6b;
+    color: rgb(218, 212, 212);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 15px;
+}
+#baseColorBtn {
+    background-color: #6b8a6b;
+    color: rgb(218, 212, 212);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 15px; 
+}
