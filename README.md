@@ -1,14 +1,13 @@
-# Color Palette Generator
+# Colour Palette Generator
 
-This is a simple color palette generator web application built using HTML, CSS, and JavaScript.
+This is a simple colour palette generator web application built using HTML, CSS, and JavaScript.
 
 ## Features
-- Generate random color palettes using [The Color API](https://www.thecolorapi.com/).
+- Generate random colour palettes using [The Color API](https://www.thecolorapi.com/).
 - Generate a palette from a user-selected base color.
-- (Optional) Extract dominant colors from an image (in progress).
 - Fully asynchronous with JSON data.
 - Single Page Application (SPA) with no page reloads.
-- Interactive with at least 3 distinct event listeners.
+- Interactive with at least 2 distinct event listeners.
 - Follows good coding practices (DRY principle, array iteration, reusable functions).
 
 ## Running the Application
@@ -29,7 +28,6 @@ This is a simple color palette generator web application built using HTML, CSS, 
     - Event handling with `.addEventListener()`
     - Single Page Application (SPA)
     - Array iteration
-- Future enhancement: Extract colors from an uploaded image
 
 ## Author
 Alicia Natasha
