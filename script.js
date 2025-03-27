@@ -15,3 +15,13 @@ function generateFromBaseColor() {
         .then(data => displayPalette(data.colors.map(color => color.hex.value)));
 }
 
+function displayPalette(colors) {
+    const palette = document.getElementById('palette');
+    palette.innerHTML = '';
+    colors.forEach(color => {
+        const div = document.createElement('div');
+        div.className = 'color-box';
+        div.style.backgroundColor = color;
+        palette.appendChild(div);
+    });
+}
